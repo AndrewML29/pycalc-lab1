@@ -11,7 +11,7 @@ def main():
         print('  python -m toolkit calc "EXPRESSION"')
         print("  python -m toolkit convert VALUE --from UNIT --to UNIT")
         print("  python -m toolkit --help")
-        sys.exit(0)
+        sys.exit(2)
 
     command = sys.argv[1].lower()
 

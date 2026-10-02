@@ -38,7 +38,7 @@ def tokenize(expression):
                 tokens.append(char)
             i+=1
             continue
-    i+=1
+        i+=1
     return tokens
                 
 def validate(tokens):
